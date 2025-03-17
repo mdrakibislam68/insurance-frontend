@@ -1,0 +1,69 @@
+@use 'tailwindcss';
+
+html,
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+// antd table
+
+.ant-table {
+    border-radius: 12px !important;
+    overflow: hidden;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.ant-table-thead {
+    th.ant-table-cell {
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 18px 16px !important;
+    }
+}
+
+.ant-table-thead > tr > th:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+.ant-table-thead > tr > th:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+.ant-table-tbody > tr > td:first-child {
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.ant-table-tbody > tr > td:last-child {
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Odd Rows Styling */
+.ant-table-tbody > tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+/* Even Rows Styling */
+.ant-table-tbody > tr:nth-child(even) {
+    background-color: #f5f7fb;
+}
+
+// Common Drawer
+.ant-drawer-content-wrapper {
+    margin: 16px !important;
+    margin-left: 0 !important;
+}
+
+.common-drawer {
+    .ant-drawer-header {
+        padding: 27px 32px 24px !important;
+    }
+    .ant-drawer-body {
+        padding: 30px 32px !important;
+    }
+    .ant-drawer-footer {
+        padding: 32px !important;
+    }
+}

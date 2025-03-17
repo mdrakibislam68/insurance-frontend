@@ -1,0 +1,26 @@
+.dashboard-sidebar {
+  &.ant-menu {
+    .ant-menu-item-group-title {
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0 16px 12px;
+    }
+
+    .ant-menu-item-group {
+      .ant-menu-item-group-list {
+        .ant-menu-item {
+          margin: 0;
+          padding-inline: 12px 16px;
+          padding-left: 16px !important;
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+    }
+
+
+    .ant-menu-item-divider {
+      margin: 24px 0;
+    }
+  }
+}
